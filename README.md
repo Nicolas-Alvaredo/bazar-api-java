@@ -42,7 +42,7 @@ cd bazar-api-java
 
 ## 📦 API Endpoints
 
-# Products
+### Products
 
 - POST /productos/crear
 - GET /productos
@@ -51,7 +51,7 @@ cd bazar-api-java
 - DELETE /productos/eliminar/{id}
 - GET /productos/falta_stock
 
-# Clients
+### Clients
 
 - POST /clientes/crear
 - GET /clientes
@@ -59,7 +59,7 @@ cd bazar-api-java
 - PUT /clientes/editar/{id}
 - DELETE /clientes/eliminar/{id}
 
-# Sales
+### Sales
 
 - POST /ventas/crear
 - GET /ventas
@@ -67,7 +67,7 @@ cd bazar-api-java
 - PUT /ventas/editar/{id}
 - DELETE /ventas/eliminar/{id}
 
-# Custom
+### Custom
 
 - GET /ventas/productos/{id}
 - GET /ventas/fecha/{date}
